@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 tName.setText("Hello " + eName.getText());
-                createNewDialogWindow();
-                t1Name.setText("Hello " + eName.getText());
+//                createNewDialogWindow();
+//                t1Name.setText("Hello " + eName.getText());
             }
         });
     }
