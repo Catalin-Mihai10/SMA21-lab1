@@ -15,6 +15,8 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import activity.intents.R;
+
 public class MainActivity extends AppCompatActivity {
     private AlertDialog.Builder dialogBuilder;
     private AlertDialog dialog;
@@ -42,41 +44,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
-    public void createNewDialogWindow(){
-        dialogBuilder = new AlertDialog.Builder(this);
-        popupWindowView = getLayoutInflater().inflate(R.layout.popup_window, null);
-
-        t1Name = (TextView) popupWindowView.findViewById(R.id.t1View);
-        Button happyB = (Button) popupWindowView.findViewById(R.id.happyB);
-        Button angryB = (Button) popupWindowView.findViewById(R.id.angryB);
-        Button closeB = (Button) popupWindowView.findViewById(R.id.closeB);
-
-        dialogBuilder.setView(popupWindowView);
-        dialog = dialogBuilder.create();
-        dialog.show();
-
-        happyB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                t1Name.setText("Happy!!!");
-            }
-        });
-
-        angryB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                t1Name.setText("Angry!!!");
-            }
-        });
-
-        closeB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }
-        });
-    }
 //    public void clicked(View view){
 //        EditText eName = (EditText) findViewById(R.id.eName);
 //        Button bClick = (Button) findViewById(R.id.bClick);

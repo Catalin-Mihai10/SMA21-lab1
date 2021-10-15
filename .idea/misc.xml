@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android/app/src/main/res/layout/activity_a.xml" value="0.33" />
+        <entry key="..\:/android/app/src/main/res/layout/activity_b.xml" value="0.34782608695652173" />
+        <entry key="..\:/android/app/src/main/res/layout/activity_c.xml" value="0.34782608695652173" />
+        <entry key="..\:/android/app/src/main/res/layout/activity_intent_filter.xml" value="0.33" />
         <entry key="..\:/android/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/android/app/src/main/res/layout/activity_main_intent.xml" value="0.33" />
         <entry key="..\:/android/app/src/main/res/layout/popup_window.xml" value="0.36666666666666664" />
       </map>
     </option>

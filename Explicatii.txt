@@ -1,0 +1,13 @@
+1. A - B - C - A - back - home - relaunch app - back - back:
+
+Create A -> Start A -> Resume A -> Pause A -> Create B -> Start B -> Resume B -> Stop A -> Pause B
+-> Create C -> Start C -> Resume C -> Stop B -> Pause C -> Create A -> Start A -> Resume A -> Stop C
+-> Pause A -> Restart C -> Start C -> Resume C -> Stop A -> Destroy A -> Pause C -> Stop C -> Restart C
+-> Start C -> Resume C -> Pause C -> Restart B -> Start B -> Resume B -> Stop C -> Destroy C -> Pause B
+-> Restart A -> Start A -> Resume A -> Stop B -> Destroy B
+
+2.Primul buton are actiunea de View si exista deja o activitate impotriva actiunii de View definita de Android prin care se lanseaza
+browser-ul astfel cand apasam butonul ne apar 2 optiuni.La fel se intampla si pentru cel de-al doilea doar ca activitatea default
+pentru acesta este telefonul. Daca selectam sa deschidam cu aplicatia se va deschide fereastra de IntentFilterActivity si vom vedea
+datele transmise care le va afista prin textView
+Butoanele 3 si 4 fac lanseaza direct actiunea noastra custom unde ne sunt afisate datele transmise prin textView
